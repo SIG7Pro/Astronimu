@@ -4,8 +4,23 @@ This is a simple quote on quote developer diary meant to talk about stuff. Simil
 [HaxeFlixel](https://haxeflixel.com) is a cool thingie which is essentially a cool game engine thing. Its built on Haxe, OpenFL, and Flixel, pretty cool right?
 ## Diary Entries
 
-Diary Entries will be kept from newest to oldest, considering there's only one noted day, there is no need to really put this text here.
+Diary Entries will be kept from newest to oldest.
 
+### Day 2 / Tuesday, 16 May, 2023.
+As of writing, I haven't gotten time to work on the game, but hey, not all developers can work on their games every day!
+
+I've been assisting with a mod for a game known as Friday Night Funkin', which meant I was busy for the technical stuff. I think it might be getting released or tomorrow, I'm not sure.
+
+Modding other games aside, looking at some code for tweening sprites seems pretty hard to do, and considering this is a rhythm game meant for three playstyles means there's gonna have to be a lot of tweening and spawning to do; yikes. I've been considering getting my friend Emily/Kirby (said person has two names, make fun of her) to help but she's probably busy and I'm too scared to tell her my concept. Maybe in the summer months she might be availible, who knows?
+
+Code wise, that's kinda in a pickle; how about music-wise? Well I don't know anyone who would wanna make music, or at least not anymore, so I might use some royalty-free music from Newgrounds as placeholders.
+
+For graphics, I'll make those on my own times, that is going to hopefully be the easiest part of this.
+
+#### Special Thanks! (Day 2)
+Flez is cool, I don't have a reason for giving him thanks.
+
+(Fun fact, this so far is a day where I've used the preview tool the least, which is twice!)
 
 
 ### Day 1 / Monday, 15 May, 2023.
