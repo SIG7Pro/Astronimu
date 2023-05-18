@@ -5,6 +5,16 @@ This is a simple quote on quote developer diary meant to talk about stuff. Simil
 ## Diary Entries
 
 Diary Entries will be kept from newest to oldest.
+### Day 3-4 / Thursday, 18 May, 2023.
+Half 1 / Day 3
+
+This was meant to be written yesterday but I simply couldn't write in this diary as I was planning on doing. If I were to be fair, I'll consider this first half to be Day 3's half then I'll write another half later. (It is 12:02A as of writing.) So basically, I wasn't able to do anything today for the game unfortunately. I doubt I would be able to if I were to be honest, but I'm not sure.
+
+Yesterday's talk about coding and getting a friend to join most likely won't do very well ~~since I think Emily * *might* * be mad at me since I unintentionally made another friend feel uncomfortable "yesterday"... I'll have to eventually respond to her angry message but not now... In the meanwhile, I do have guilt and shame, I'm not going to talk about it.~~
+
+Hopefully after I get this commit out for the DevDiary, I can add some folders and a project.xml file. It won't be much now but its the thought that counts. My main goal for this is to be able to make ***at least one play style*** that is functional.
+
+I'm going to hop off now and meet y'all in part two. (12:08 AM)
 
 ### Day 2 / Tuesday, 16 May, 2023.
 As of writing, I haven't gotten time to work on the game, but hey, not all developers can work on their games every day!
