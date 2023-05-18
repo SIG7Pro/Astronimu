@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project xmlns="http://lime.software/project/1.0.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://lime.software/project/1.0.2 http://lime.software/xsd/project-1.0.2.xsd">
+
+	<!-- _________________________ Application Settings _________________________ -->
+	
+	<app title="Astronimu Public Prototype v0.0.1 Beta" file="Astronimu" main="Astromina Engine" version="PublicProto 0.0.1" company="AARE" />
+  	<!-- Kudos to the FlxAtlas repo for being the basis for this project.xml file!
+          https://github.com/HaxeFlixel/flixel-demos/blob/dev/Other/FlxAtlas/Project.xml -->
+	
+	<!--The flixel preloader is not accurate in Chrome. You can use it regularly if you embed the swf into a html file
+		or you can set the actual size of your file manually at "FlxPreloaderBase-onUpdate-bytesTotal"!-->
+	<app preloader="flixel.system.FlxPreloader" />
+	
+	<!--Minimum without FLX_NO_GAMEPAD: 11.8, without FLX_NO_NATIVE_CURSOR: 11.2 -->
+	<set name="SWF_VERSION" value="11.8" />
+	
+	<!-- ____________________________ Window Settings ___________________________ -->
+	
+	<!--These window settings apply to all targets-->
+	<window width="1280" height="720" fps="35" background="#000000" hardware="true" vsync="false" />
+	
+	<!--HTML5-specific-->
+	<window if="html5" resizable="true" />
+	
+	<!--Desktop-specific-->
+	<window if="desktop" orientation="landscape" fullscreen="false" resizable="true" />
+	
+	<!--Mobile-specific but I doubt anyone would need to play this on a phone.
+Maybe if I get a fanbase from this project and people see the need to play this on the go?
+Perhaps, but it is WAY too early to think about that now.-->
+	<window if="mobile" orientation="landscape" fullscreen="true" width="0" height="0" />
+	
+	<!-- _____________________________ Path Settings ____________________________ -->
+	
+	<!-- <set name="BUILD_DIR" value="export" /> original line to the side, below is edited from fnf psych engine legacy-->
+  
+  <!-- So let's describe our folder structure.
+> Export
+ > Debug
+ > Release
+ > General
+    > Build
+    > 32Bit
+The export folder deals with where the build(s) are being exported.
+The debug folder is for debug builds.
+The release folder is for release builds.
+The general folder is for neither.
+
+The 32-bit folder is for 32 bit compilations. It can be accessed by adding the parameters to do a normal 32-bit compilation along with
+"32b" and "low-end." 
+
+-->
+  <set name="BUILD_DIR" value="export/debug" if="debug" />
+    <set name="BUILD_DIR" value="export/debug/32bit" if="debug" if="32bits"/>
+    <set name="BUILD_DIR" value="export/debug/32bit" if="debug" if="32bit"/>
+    <set name="BUILD_DIR" value="export/debug/32bit" if="debug" if="32b"/>                                                              
+    <set name="BUILD_DIR" value="export/debug/32bit" if="debug" if="low-end" />
+  
+	<set name="BUILD_DIR" value="export/release" if="release" />
+  	<set name="BUILD_DIR" value="export/release/32bit" if="release" if="32bits"/>
+  	<set name="BUILD_DIR" value="export/release/32bit" if="release" if="32bit"/>
+    <set name="BUILD_DIR" value="export/release/32bit" if="release" if="32b"/>                                                              
+    <set name="BUILD_DIR" value="export/release/32bit" if="release" if="low-end" />
+  
+  
+  <set name="BUILD_DIR" value="export/general/build" />
+	<set name="BUILD_DIR" value="export/general/32bit" if="32bits" />
+  	<set name="BUILD_DIR" value="export/general/32bit" if="32bit" />
+  	<set name="BUILD_DIR" value="export/general/32bit" if="32b" />
+    <set name="BUILD_DIR" value="export/general/32bit" if="low-end" />                                               
+
+	<source path="source" />
+	<assets path="assets" />
+	
+	<!-- _______________________________ Libraries ______________________________ -->
+
+	<haxelib name="flixel" />
+	
+	<!-- ______________________________ Haxedefines _____________________________ -->
+	
+	<!--Disable the Flixel core debugger. Automatically gets set whenever you compile in release mode!-->
+	<haxedef name="FLX_NO_DEBUG" unless="debug" />
+	
+	<!--Enable this for Nape release builds for a serious peformance improvement-->
+	<haxedef name="NAPE_RELEASE_BUILD" unless="debug" />
+	
+	<!-- _________________________________ Custom _______________________________ -->
+	
+	<!-- Place custom nodes like icons here -->
+</project>
