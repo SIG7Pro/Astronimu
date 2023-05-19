@@ -5,8 +5,32 @@ This is a simple quote on quote developer diary meant to talk about stuff. Simil
 ## Diary Entries
 
 Diary Entries will be kept from newest to oldest.
-### Day 3-4 / Thursday, 18 May, 2023.
-Half 1 / Day 3
+### Day 3-4-5 / Thursday, 18 May, 2023 + Friday, 19 May 2023.
+#### Part 2 / Days 3/4
+
+I accidentally missed my quote on quote deadline of writing this before the day ended. So I'll write for three days instead of two and parts instead of halves. My sister kinda quote on quote angrily lectured me about school crap. They always assume I don't care or I simply don't wanna do it but in reality I'm just way too slow with school stuff. I've also made these parts into sub-sub-sub-categories. (How do I explain this??)
+
+However, you are most likely reading this to see the Game Dev stuff, not crap about my personal life. I'll hurry this up since I really have to go in a bit but I'll show some game assets I've made so far!
+
+Arrows
+![Arrows!](https://media.discordapp.net/attachments/85338836384628736/1108943468421730304/ypGKQtIAbypAAAAAElFTkSuQmCC.png?width=384&height=288)
+
+Pixel Arrows (The colors for these were used to form the basis for the normal arrows.)
+![Pixel Arrows!](https://images-ext-1.discordapp.net/external/bbeJceC_YTSm9fqIrcIaQzjo3G93IiP8QFEGeds9j1E/https/art.pixilart.com/sr22dede9f9727e.png?width=450&height=450)
+
+Pixel Bars
+
+![Pixel Bars!](https://images-ext-2.discordapp.net/external/QtLZrNOCl9Yz6Yhl2KJYIsaqaZsDA7XkhMaJAvL7fRQ/https/art.pixilart.com/sr226eb2c22db5b.png?width=450&height=450)
+
+I've made pixel notes for the circle thingies, which I might call twirl mode notes. But I can't find them. I'm also making normal bar notes but I'll show those when I can.
+
+You may have also noticed I added a [project.xml](project.xml) file! We're getting somewhere, baby! Hahaha! 
+
+I'll hop off and hopefully return for part 3!
+(12:22 AM)
+
+
+#### Part 1 / Day 3
 
 This was meant to be written yesterday but I simply couldn't write in this diary as I was planning on doing. If I were to be fair, I'll consider this first half to be Day 3's half then I'll write another half later. (It is 12:02A as of writing.) So basically, I wasn't able to do anything today for the game unfortunately. I doubt I would be able to if I were to be honest, but I'm not sure.
 
