@@ -6,6 +6,9 @@ This is a simple quote on quote developer diary meant to talk about stuff. Simil
 
 Diary Entries will be kept from newest to oldest.
 ### Day 3-4-5 / Thursday, 18 May, 2023 + Friday, 19 May 2023.
+#### Part 3 / Day 5
+I managed to do some stuff for the game but it is currently 11:59 PM and I need to hurry typing this. I'll explain tomorrow. Dev diary out.
+
 #### Part 2 / Days 3/4
 
 I accidentally missed my quote on quote deadline of writing this before the day ended. So I'll write for three days instead of two and parts instead of halves. My sister kinda quote on quote angrily lectured me about school crap. They always assume I don't care or I simply don't wanna do it but in reality I'm just way too slow with school stuff. I've also made these parts into sub-sub-sub-categories. (How do I explain this??)
