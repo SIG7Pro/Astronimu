@@ -4,6 +4,9 @@ This is a simple quote on quote developer diary meant to talk about stuff. Simil
 [HaxeFlixel](https://haxeflixel.com) is a cool thingie which is essentially a cool game engine thing. Its built on Haxe, OpenFL, and Flixel, pretty cool right?
 ## Diary Entries
 
+### Day 6 / August 28th, 2023.
+I haven't been able to work on the game over summer and it kinda sucks but hopefully since school is back in session, I'll try to expand and do some coding.
+
 Diary Entries will be kept from newest to oldest.
 ### Day 3-4-5 / Thursday, 18 May, 2023 + Friday, 19 May 2023.
 #### Part 3 / Day 5
