@@ -35,7 +35,7 @@ Perhaps, but it is WAY too early to think about that now.-->
 	
 	<!-- <set name="BUILD_DIR" value="export" /> original line to the side, below is edited from fnf psych engine legacy-->
   
-  <!-- So let's describe our folder structure.
+  <!-- So let's describe what the planned export file structure. (Removed due to compilation errors.)
 > Export
  > Debug
  > Release
@@ -50,7 +50,7 @@ The general folder is for neither.
 The 32-bit folder is for 32 bit compilations. It can be accessed by adding the parameters to do a normal 32-bit compilation along with
 "32b" and "low-end." 
 
--->
+
   <set name="BUILD_DIR" value="export/debug" if="debug" />
     <set name="BUILD_DIR" value="export/debug/32bit" if="debug" if="32bits"/>
     <set name="BUILD_DIR" value="export/debug/32bit" if="debug" if="32bit"/>
@@ -69,9 +69,16 @@ The 32-bit folder is for 32 bit compilations. It can be accessed by adding the p
   	<set name="BUILD_DIR" value="export/general/32bit" if="32bit" />
   	<set name="BUILD_DIR" value="export/general/32bit" if="32b" />
     <set name="BUILD_DIR" value="export/general/32bit" if="low-end" />                                               
-
+-->
 	<source path="source" />
 	<assets path="assets" />
+		<!--  Custom Folders  -->
+	<assets path="addons" />
+	<assets path="screenshots" />
+	
+	<set name="BUILD_DIR" value="export/general/build" />
+	<set name="BUILD_DIR" value="export/debug" if="debug" />
+	<set name="BUILD_DIR" value="export/release" if="release" />
 	
 	<!-- _______________________________ Libraries ______________________________ -->
 

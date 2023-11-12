@@ -1,21 +1,24 @@
 package;
 
+import flixel.FlxG;
 import flixel.FlxState;
+import flixel.text.FlxText;
+import flixel.util.FlxColor;
 
 class PlayState extends FlxState
 {
-    override public function create()
-        {
-            super.create();
-        
-            var text = new flixel.text.FlxText(0, 0, 0, "Hello World", 64);
-            text.screenCenter();
-            add(text);
-        }
+	override public function create()
+	{
+		bgColor = 0;
 
+super.create();
 
-    override public function update(elapsed:Float)
-    {
-        super.update(elapsed);
-    }
+		var text = new FlxText();
+		text.text = "Hello, World!";
+		text.color = FlxColor.CYAN;
+		text.size = 32;
+		text.setBorderStyle(FlxTextBorderStyle.SHADOW, FlxColor.BLUE, 4);
+		text.screenCenter();
+		add(text);
+	}
 }
